@@ -1,0 +1,24 @@
+/* TEAM */
+Chef: Mathieu Sylvain
+Github: @masyl
+LinkedIn: http://www.linkedin.com/in/masyl
+From: Canada
+
+Front-End: Jérôme D.Soucy
+Site: jeromedsoucy@gmail.com
+LinkedIn: http://www.linkedin.com/pub/j%C3%A9r%C3%B4me-d-soucy/11/901/689
+From:Montreal, Canada
+
+Web designer: Benoit Girard
+From: Montreal, Canada
+
+/* THANKS */
+Master Mind: David Lamarre
+LinkedIn: http://www.linkedin.com/in/davelamarre
+From: Canada
+
+/* SITE */
+Last update: 2012/01/24
+Language: English
+Standards: HTML5, CSS3
+Components: jQuery Mobile, LESS
