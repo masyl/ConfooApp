@@ -1,0 +1,23 @@
+<body><h1> Registration List</h1>
+
+    <table>
+        <tr>
+            <td>id</td>
+            <td>name</td>
+            <td>email</td>
+            <td>profession</td>
+            <td>date</td>
+        </tr>
+
+        {{each item.registrations }}
+        <tr>
+            <td>{{out item._doc.id /}}</td>
+            <td>{{out item._doc.name /}}</td>
+            <td>{{out item._doc.email /}}</td>
+            <td>{{out item._doc.profession /}}</td>
+            <td>{{out item._doc.date /}}</td>
+        </tr>
+        {{endeach}}
+    </table>
+
+</body>

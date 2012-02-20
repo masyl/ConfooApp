@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="author" href="humans.txt" />
+
+    <title>Confoo - Nurun</title>
+    <link rel="stylesheet" type="text/css" href="./stylesheets/style.css">
+    <link rel="stylesheet" type="text/css" href="./stylesheets/jquery.mobile-1.0.css">
+    <script src="./javascripts/less-1.2.1.min.js" type="text/javascript"></script>
+    <script src="./javascripts/jquery-1.7.1.min.js" type="text/javascript"></script>
+    <script src="./javascripts/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+    <script src="./javascripts/jquery.labelify.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("input").labelify({ text: "label" });
+        });
+    </script>
+</head>
+<body>
+<div id="mainCtn">
+    <div class="wrapper">
+        <a href="#" id="map"><img src="images/map.png"></a>
+        <div id="tagLine"><img src="images/tagLine.png"></div>
+
+        <img id="completeForm" src="images/completeForm.png">
+        <form action="thankyou.html" method="get" autocomplete="on" data-ajax="false">
+            <div data-role="fieldcontain">
+                <label for="name">Name</label>
+                <input name="name" id="name" type="text" value="">
+            </div>
+            <div data-role="fieldcontain">
+                <label for="email">Email</label>
+                <input name="email" id="email" type="email" value=""">
+            </div>
+            <div data-role="fieldcontain">
+                <label for="profession" class="select">Profession</label>
+                <select name="profession" id="profession" title="Profession">
+                    <option value="" selected="selected">Profession</option>
+                    <option value="backend">Front-End</option>
+                    <option value="backend">Back-End</option>
+                </select>
+            </div>
+            <button type="submit" data-theme="b" name="submit" value="submit-value" class="ui-btn-hidden" aria-disabled="false">Send</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
