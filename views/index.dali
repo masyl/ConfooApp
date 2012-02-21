@@ -5,18 +5,18 @@
         <div id="tagLine"><img src="images/tagLine.png"></div>
 
         <img id="completeForm" src="images/completeForm.png">
-        <form action="" method="post" autocomplete="on" data-ajax="false">
-            <div data-role="fieldcontain">
+        <form action="" method="post" autocomplete="on" data-ajax="false" id="registrationForm">
+            <div data-role="fieldcontain" class="input">
                 <label for="name">Name</label>
-                <input name="name" id="name" type="text" value="">
+                <input name="name" id="name" type="text" class="required">
             </div>
-            <div data-role="fieldcontain">
+            <div data-role="fieldcontain" class="input">
                 <label for="email">Email</label>
-                <input name="email" id="email" type="email" value=""">
+                <input name="email" id="email" type="email" class="required">
             </div>
             <div data-role="fieldcontain">
                 <label for="profession" class="select">Profession</label>
-                <select name="profession" id="profession" title="Profession">
+                <select name="profession" id="profession" title="Profession" class="required">
                     <option value="" selected="selected">Profession</option>
                     <option value="backend">Front-End</option>
                     <option value="backend">Back-End</option>
