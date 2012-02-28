@@ -230,7 +230,17 @@ body {
 label {
   display: none;
 }
+/* Home */
+.home #popcorn {
+  text-align: center;
+}
+.home #popcorn img {
+  width: 49%;
+}
 /* Thank you */
+.thankyou .ui-page.ui-body-c.ui-page-active {
+  height: 100%;
+}
 .thankyou #mainCtn {
   color: #000;
   background-image: url("../images/thankyou.jpg");
@@ -242,4 +252,47 @@ label {
   color: white;
   text-align: center;
   display: block;
+}
+/* Registration List */
+.registrationList {
+  background: white;
+  font-size: 14px;
+}
+.registrationList h1 {
+  display: block;
+  font-size: 20px;
+  padding-top: 20px;
+}
+.registrationList header {
+  padding: 20px 0;
+  text-align: center;
+}
+.registrationList header, .registrationList table {
+  width: 50%;
+  margin: 0 auto;
+}
+.registrationList table {
+  border: 1px solid #eee;
+  padding: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.registrationList th {
+  text-align: left;
+  padding: 5px;
+}
+.registrationList td {
+  padding: 5px 0;
+}
+.registrationList small {
+  font-size: 11px;
+}
+.registrationList tr.colName {
+  border-bottom: 1px solid #F0F0F0;
+}
+.registrationList tr.data:hover {
+  background: #F0F0F0;
+}
+.registrationList .ui-body-c, .registrationList .ui-dialog.ui-overlay-c {
+  color: #666;
+  text-shadow: none;
 }

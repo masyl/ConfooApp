@@ -1,9 +1,9 @@
-<body>
+<body class="home">
 <div id="mainCtn">
     <div class="wrapper">
         <a href="#" id="map"><img src="images/map.png"></a>
         <div id="tagLine"><img src="images/tagLine.png"></div>
-
+        <div id="popcorn"><img src="images/popcorn.png"></div>
         <img id="completeForm" src="images/completeForm.png">
         <form action="" method="post" autocomplete="on" data-ajax="false" id="registrationForm">
             <div data-role="fieldcontain" class="input">
@@ -12,7 +12,7 @@
             </div>
             <div data-role="fieldcontain" class="input">
                 <label for="email">Email</label>
-                <input name="email" id="email" type="email" class="required">
+                <input name="email" id="email" type="text" class="required">
             </div>
             <div data-role="fieldcontain">
                 <label for="profession" class="select">Profession</label>

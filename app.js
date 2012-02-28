@@ -30,7 +30,7 @@ app.configure('production', function(){
 });
 
 // Routes
-app.get('/thankyou/', routes.thankyou);
+    app.get('/thankyou', routes.thankyou);
 app.get('/registrationList', routes.registrationList);
 app.get('/export', routes.export);
 app.get('/', routes.index);

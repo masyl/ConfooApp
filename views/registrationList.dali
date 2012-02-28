@@ -1,21 +1,26 @@
-<body><h1> Registration List</h1>
+<body class="registrationList">
+<header><img src="images/nurunLogo.png">&nbsp;&nbsp;
+<img src="images/logo_confoo.png" height="47">
 
+
+<h1> Registration List</h1>
+</header>
     <table>
-        <tr>
-            <td>id</td>
-            <td>name</td>
-            <td>email</td>
-            <td>profession</td>
-            <td>date</td>
+        <tr class="colName">
+            <th>Id</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Profession</th>
+            <th>Date</th>
         </tr>
 
         {{each item.registrations }}
-        <tr>
+        <tr class="data">
             <td>{{out item._doc.id /}}</td>
             <td>{{out item._doc.name /}}</td>
-            <td>{{out item._doc.email /}}</td>
+            <td><a href="mailto:{{out item._doc.email /}}">{{out item._doc.email /}}</a></td>
             <td>{{out item._doc.profession /}}</td>
-            <td>{{out item._doc.date /}}</td>
+            <td><small>{{out item._doc.date /}}</small></td>
         </tr>
         {{endeach}}
     </table>
