@@ -1,13 +1,14 @@
-<body class="home">
-<div id="mainCtn">
+<body>
+<div id="siteCtn">
+<div id="mainCtn"  class="home">
     <div class="wrapper">
-        <a href="#" id="map"><img src="images/map.png"></a>
+        <a href="./ipod" id="map" data-transition="fade"><img src="images/map.png"></a>
         <div id="tagLine"><img src="images/tagLine.png"></div>
         <div id="popcorn"><img src="images/popcorn.png"></div>
         <img id="completeForm" src="images/completeForm.png">
         <form action="" method="post" autocomplete="on" data-ajax="false" id="registrationForm">
             <div data-role="fieldcontain" class="input">
-                <label for="name">Name</label>
+                <label for="name">Full Name</label>
                 <input name="name" id="name" type="text" class="required">
             </div>
             <div data-role="fieldcontain" class="input">
@@ -25,5 +26,6 @@
             <button type="submit" data-theme="b" name="submit" value="submit-value" class="ui-btn-hidden" aria-disabled="false">Send</button>
         </form>
     </div>
+</div>
 </div>
 </body>

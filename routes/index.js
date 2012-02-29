@@ -46,6 +46,9 @@ exports.thankyou = function(req, res){
     res.render('thankyou', { title: 'Express' });
 };
 
+exports.ipod = function(req, res){
+    res.render('ipod', { title: 'Express' });
+};
 exports.registrationList = function(req, res){
 
     Registration.find({}, function(err, docs){

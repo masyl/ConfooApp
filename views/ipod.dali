@@ -1,0 +1,15 @@
+<body>
+    <div id="siteCtn" class="ipod">
+        <div id="mainCtn">
+            <div class="wrapper">
+                <p><strong>Nurun</strong> is giving away an iPod Touch to the Confoo attendees.</p>
+                <p><strong>To participate</strong>, simply provide your full name, email and profession using this mobile app.</p>
+                <p>On <strong>March 5</strong> we will make the draw and announce the winner to all participants.</p>
+                <p>Good luck!</p>
+                <div id="ipodTxt"><img src="images/ipodtouchtxt.png"></div>
+                <div id="ipod"><a href="./index"><img src="images/ipod.png"></a></div>
+                <div id="backToForm"><a href="/" data-transition="fade"><img src="images/backtoform_07.png"></a></div>
+            </div>
+        </div>
+    </div>
+</body>
