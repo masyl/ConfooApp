@@ -258,6 +258,10 @@ p {
   position: relative;
   left: -2px;
 }
+.home #nurunJobs {
+  text-align: right;
+  padding-top: 10px;
+}
 /* Thank you */
 .thankyou .ui-page.ui-body-c.ui-page-active {
   height: 100%;
