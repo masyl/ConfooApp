@@ -35,6 +35,7 @@
             </div>
             <button type="submit" data-theme="b" name="submit" value="submit-value" class="ui-btn-hidden" aria-disabled="false">Send</button>
         </form>
+        <div id="nurunJobs"><a href="http://www.nurun.com/home/company-profile/global-presence/montreal.html" target="_blank"><img src="images/jobs.png"></a></div>
     </div>
 </div>
 </div>
