@@ -7,7 +7,7 @@
                 <p>On <strong>March 5</strong> we will make the draw and announce the winner to all participants.</p>
                 <p>Good luck!</p>
                 <div id="ipodTxt"><img src="images/ipodtouchtxt.png"></div>
-                <div id="ipod"><a href="./index"><img src="images/ipod.png"></a></div>
+                <div id="ipod"><a href="./index"><img src="images/ipod.jpg"></a></div>
                 <div id="backToForm"><a href="/" data-transition="fade"><img src="images/backtoform_07.png"></a></div>
             </div>
         </div>
