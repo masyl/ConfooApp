@@ -19,18 +19,18 @@
                 <label for="profession" class="select">Profession</label>
                 <select name="profession" id="profession" title="Profession" class="required">
                     <option value="" selected="selected">Profession</option>
-                    <option value="Chargé de projets web/TI sénior">Chargé de projets web/TI sénior</option>
-                    <option value="Développeur front end sénior">Développeur front end sénior</option>
+                    <option value="Analyste fonctionnel/affaires">Analyste fonctionnel/affaires</option>
                     <option value="Analyste QA Web Intermédiaire">Analyste QA Web Intermédiaire</option>
-                    <option value="Programmeur PHP intermédiaire & sénior">Programmeur PHP intermédiaire & sénior</option>
-                    <option value="Expert en architecture front end">Expert en architecture front end</option>
-                    <option value="Conseiller en architecture Java">Conseiller en architecture Java</option>
-                    <option value="Développeur .Net intermédiaire & sénior">Développeur .Net intermédiaire & sénior</option>
-                    <option value="Conseiller Web en Architecture de solution d'affaires">Conseiller Web en Architecture de solution d'affaires</option>
                     <option value="Chargé de comptes">Chargé de comptes</option>
                     <option value="Chargé de projets web">Chargé de projets web</option>
+                    <option value="Conseiller en architecture Java">Conseiller en architecture Java</option>
+                    <option value="Conseiller Web en Architecture de solution d'affaires">Conseiller Web en Architecture de solution d'affaires</option>
+                    <option value="Chargé de projets web/TI sénior">Chargé de projets web/TI sénior</option>
                     <option value="Designer de l'expérience usager">Designer de l'expérience usager</option>
-                    <option value="Analyste fonctionnel/affaires">Analyste fonctionnel/affaires</option>
+                    <option value="Développeur .Net intermédiaire & sénior">Développeur .Net intermédiaire & sénior</option>
+                    <option value="Développeur front end sénior">Développeur front end sénior</option>
+                    <option value="Expert en architecture front end">Expert en architecture front end</option>
+                    <option value="Programmeur PHP intermédiaire & sénior">Programmeur PHP intermédiaire & sénior</option>
                 </select>
             </div>
             <button type="submit" data-theme="b" name="submit" value="submit-value" class="ui-btn-hidden" aria-disabled="false">Send</button>
