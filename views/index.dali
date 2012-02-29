@@ -30,7 +30,7 @@
                     <option value="Développeur .Net">Développeur .Net</option>
                     <option value="Développeur front end">Développeur front end</option>
                     <option value="Architecture front end">Architecture front end</option>
-                    <option value="Programmeur PHP">Programmeur PHP</option
+                    <option value="Programmeur PHP">Programmeur PHP</option>
                     <option value="Other">Other</option>
                 </select>
             </div>
