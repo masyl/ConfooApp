@@ -101,6 +101,7 @@ input, select {
 }
 
 body, html{height:100%}
+
 /*
 Project CSS
 */
@@ -160,6 +161,17 @@ form{
 label{display:none;}
 
 #siteCtn{width:100%;height:100%}
+p{
+    color: #FFFFFF;
+    font-family: myrad pro,arial;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0;
+    padding-bottom: 15px;
+    text-align: center;
+    text-shadow: none;
+    padding:1% 5%;
+}
 
 /* Home */
 .home{
@@ -169,6 +181,7 @@ label{display:none;}
     }
     #registrationForm{position:relative;left:-2px;}
 }
+
 /* Thank you */
 .thankyou{
     .ui-page.ui-body-c.ui-page-active{height:100%}
@@ -178,24 +191,24 @@ label{display:none;}
         background-position:bottom;
         height:100%
     }
-    h1{font-size:100px;color:white; text-align: center;display:block;}
+    h1{
+        font-size:3em;
+        color:white;
+        text-align:center;
+        display:block;
+    }
+    h1,
+    p{
+        text-shadow: 0 0 3px rgba(0,0,0,0.9);
+    }
+    p{font-weight: bold;font-size:18px;}
 }
 
 /* iPod */
 .ipod{
     &#siteCtn{background:black;}
     #mainCtn{background:none;}
-    p{
-        color: #FFFFFF;
-        font-family: myrad pro,arial;
-        font-size: 16px;
-        line-height: 22px;
-        margin: 0;
-        padding-bottom: 15px;
-        text-align: center;
-        text-shadow: none;
-        padding:1% 5%;
-    }
+
     #ipodTxt{
         img{width:58%;}
         padding: 20px 0;
@@ -211,22 +224,21 @@ label{display:none;}
     #ipod,
     #backToForm{text-align:center;}
 }
+
 /* Registration List */
 .registrationList{
-     background:white;
-     font-size:14px;
-     h1{display:block;font-size:20px;padding-top:20px;}
-     header{padding:20px 0;text-align:center;}
-     header,table{width:50%;margin:0 auto;}
-     table{border:1px solid #eee;padding:5px;box-shadow:0 0 10px rgba(0,0,0,0.1);}
-     th{text-align:left;padding:5px;}
-     td{padding:5px 0}
-     small{font-size:11px;}
-     tr.colName{border-bottom:1px solid #F0F0F0;}
-     tr.data{
-
+    background:white;
+    font-size:14px;
+    h1{display:block;font-size:20px;padding-top:20px;}
+    header{padding:20px 0;text-align:center;}
+    header,table{width:50%;margin:0 auto;}
+    table{border:1px solid #eee;padding:5px;box-shadow:0 0 10px rgba(0,0,0,0.1);}
+    th{text-align:left;padding:5px;}
+    td{padding:5px 0}
+    small{font-size:11px;}
+    tr.colName{border-bottom:1px solid #F0F0F0;}
+    tr.data{
         &:hover{background:#F0F0F0;}
-
-     }
-     .ui-body-c, .ui-dialog.ui-overlay-c {color:#666;text-shadow: none}
+    }
+    .ui-body-c, .ui-dialog.ui-overlay-c {color:#666;text-shadow: none}
 }
